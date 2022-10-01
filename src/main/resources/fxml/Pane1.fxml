@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.camp.it.controllers.SimpleController">
+
+    <children>
+        <Button fx:id="przycisk1" onAction="#buttonClick" text="Przycisk 1" />
+        <CheckBox fx:id="checkbox" onAction="#buttonClick" text="zaznacz albo i nie zaznaczaj" />
+        <Button fx:id="przycisk2" text="Przycisk 2" />
+      <TextField />
+      <ChoiceBox prefWidth="150.0" />
+    </children>
+</FlowPane>

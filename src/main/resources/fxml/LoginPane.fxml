@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.camp.it.controllers.LoginController">
+   <children>
+      <VBox layoutX="-1.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="130.0" prefWidth="200.0">
+               <children>
+                  <Label text="Login:">
+                     <HBox.margin>
+                        <Insets left="30.0" top="30.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="43.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="loginTextField">
+                     <HBox.margin>
+                        <Insets left="35.0" top="30.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="130.0" prefWidth="200.0">
+               <children>
+                  <Label text="Hasło:">
+                     <font>
+                        <Font size="43.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="30.0" top="30.0" />
+                     </HBox.margin>
+                  </Label>
+                  <PasswordField fx:id="passwordField">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="35.0" top="30.0" />
+                     </HBox.margin>
+                  </PasswordField>
+               </children>
+            </HBox>
+            <HBox prefHeight="130.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" prefWidth="300.0" text="OK" onAction="#login">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="170.0" top="25.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
